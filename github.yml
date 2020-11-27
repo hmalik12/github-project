@@ -1,0 +1,8 @@
+---
+- name: delet user
+  hosts: all
+  tasks: 
+    - name: delet user
+      user:
+       name: bunny
+       state: absent
